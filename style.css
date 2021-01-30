@@ -10,6 +10,14 @@ h1{
 
 .header {
     display: flex;
+    background-color: #dadada;
+    height: 80px;
+}
+
+.header img {
+    max-height: 100%;
+    max-width: 100%;
+
 }
 
 .empty-cnt {
@@ -21,7 +29,7 @@ a {
     text-decoration: none;
 }
 
-ul {
+body, ul {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -37,6 +45,9 @@ ul {
     margin-right: 10px;
 }
 
+.nav-list > li > a {
+    color: white;
+}
 
 
 * {font-family: Arial, sans-serif;}
@@ -44,3 +55,4 @@ ul {
 .center-cnt {
     text-align: center;
 }
+
