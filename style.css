@@ -1,3 +1,26 @@
 h1{
     color:red;
 }
+
+.heading {
+    color: blue;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+}
+
+* {font-family: Arial, sans-serif;}
+
+.center-cnt {
+    text-align: center;
+}
