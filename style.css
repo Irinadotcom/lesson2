@@ -71,23 +71,38 @@ body, ul {
     margin: 0 auto;
 }
 
+.img-section {
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+}
 
-.img-cnt{
+.img-cnt {
     background: url(./img/img1.jpg);
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+    width: 50%;
     height: 100%;
-   
 }
 
 .text-cnt-right {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
     float: right;
     width: 50%;
     height: 100%;
-    
+    text-align: center;
 }
+
+.img-flex-section {
+    display: flex;
+}
+
+.text-cnt-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
